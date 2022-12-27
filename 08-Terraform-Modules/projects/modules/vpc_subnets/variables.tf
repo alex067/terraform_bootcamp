@@ -18,11 +18,6 @@ variable "subnets" {
   }))
 }
 
-variable "igw_id" {
-  description = "The Internet Gateway ID for public route tables"
-  type        = string
-}
-
 variable "vpc_id" {
   description = "The VPC ID where the Subnets belong to"
   type        = string
